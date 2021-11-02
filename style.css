@@ -4,6 +4,9 @@
 /* multi usables */
 body{
     background: url('./images/pattern-background-desktop.svg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
     font-family:'Red Hat Display', sans-serif;
     min-height: 100vh;
     display: flex;
@@ -89,6 +92,7 @@ body{
     font-weight: bolder;
     background: hsl(225, 100%, 94%);
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 .btn2:hover{
     cursor: pointer;
